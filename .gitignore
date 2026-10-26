@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environments & secrets
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Project generated runtime data
+data/raw/*
+!data/raw/.gitkeep
+data/parquet/*
+!data/parquet/.gitkeep
+test.parquet
+
+# Models cache (weights downloaded at runtime)
+models/*
+!models/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/.vite/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+
+# Scratch & Temporary
+scratch/
+.commandcode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
